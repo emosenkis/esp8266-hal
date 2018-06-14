@@ -1,0 +1,13 @@
+[package]
+name = "esp8266-hal"
+version = "0.0.1"
+authors = ["Eitan Mosenkis <eitan@mosenkis.net>"]
+categories = ["embedded", "hardware-support"]
+keywords = ["esp-rs", "esp8266", "embedded-hal", "embedded-hal-impl"]
+repository = "https://github.com/emosenkis/esp8266-hal"
+license = "MIT"
+description = "Implementation of the `embedded-hal` traits for ESP8266"
+
+[dependencies]
+libc = { version = "0.2.22", default-features = false }
+embedded-hal = { version = "0.2.1", features = ["unproven"] }
