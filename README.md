@@ -1,3 +1,5 @@
+# DEPRECATED - try [esp-rs/esp8266-hal](https://github.com/esp-rs/esp8266-hal)
+
 # [`embedded-hal`](https://github.com/japaric/embedded-hal) implementation for ESP8266
 
 This crate implements `embedded-hal` traits for the ESP8266 series of
